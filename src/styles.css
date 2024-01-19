@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+    color: #b3b3b3
+}
+
+.ul-content {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    border: 2px solid white
+}
+
+.li-content {
+    margin: auto;
+    text-align: center;
+} 
+
+.xp-desc, .xp-location, .asso-desc {
+    display: none;
+}
+.structure {
+    width: 15vw;
+}
+.form-location {
+    width: 15vw;
+}
+.form-desc{
+    width: 45vw;
+}
+.nom {
+    width: 15vw;
+}
+.poste {
+    width: 15vw;
+}
+.asso-location {
+    width: 15vw;
+}
+.type {
+    width: 10vw;
+}
+.date {
+    width: 15vw;
+}
+.title {
+    width: 35vw;
+}
+.company {
+    width: 30vw;
+}
+
