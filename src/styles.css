@@ -37,13 +37,14 @@ main ul {
 main li {
     margin: auto;
     text-align: center;
+    width: auto;
 } 
 
 main ul:hover {
     background-color: rgb(46, 46, 46);
     cursor: pointer;
 } 
-
+/* 
 .structure {
     width: 15vw;
 }
@@ -75,18 +76,6 @@ main ul:hover {
 }
 .company {
     width: 12vw;
-}
-
-/* nav {
-    float: left;
-    width: 340px;
-    height: 100vh;
-    text-align: center;
-    height: fit-content;
-    background-color: rgb(24, 24, 24);
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 10px;
 } */
 
 nav{
@@ -126,7 +115,7 @@ nav li:hover {
 }
 
 .home {
-    height: 100px;
+    height: 75px;
     width: calc(100vw - 20px);
     background-color: rgb(24, 24, 24);
     margin-left: 10px;
