@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
 
 export class AssoComponent implements OnInit{
   listAssos: Array<IAsso> = [];
-  url: string = '/assets/data/asso.json';
+  url: string = 'assets/data/asso.json';
 
   constructor(private http: HttpClient) {}
 

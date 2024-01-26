@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
 })
 export class ExpProComponent implements OnInit {
   listXp: Array<IXpPro> = [];
-  url: string = '/assets/data/exp-pro.json';
+  url: string = 'assets/data/exp-pro.json';
 
   constructor(private http: HttpClient) {}
 
