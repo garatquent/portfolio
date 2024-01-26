@@ -4,26 +4,46 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #000000;
     font-family: 'Montserrat', sans-serif;
     color: #b3b3b3
 }
 
-.ul-content {
+main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+main {
+    position: relative;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 140px);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+main ul {
     display: flex;
     list-style-type: none;
     height: 60px;
-    border: 2px solid white
+    border-radius: 10px;
 }
 
-.li-content {
+main li {
     margin: auto;
     text-align: center;
 } 
 
-.xp-desc, .xp-location, .asso-desc {
-    display: none;
-}
+main ul:hover {
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+} 
+
 .structure {
     width: 15vw;
 }
@@ -33,6 +53,7 @@ body {
 .form-desc{
     width: 45vw;
 }
+
 .nom {
     width: 15vw;
 }
@@ -42,16 +63,76 @@ body {
 .asso-location {
     width: 15vw;
 }
+
 .type {
-    width: 10vw;
+    width: 7vw;
 }
 .date {
-    width: 15vw;
+    width: 7vw;
 }
 .title {
-    width: 35vw;
+    width: 15vw;
 }
 .company {
-    width: 30vw;
+    width: 12vw;
 }
 
+/* nav {
+    float: left;
+    width: 340px;
+    height: 100vh;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 10px;
+} */
+
+nav{
+    text-align: center;
+    position: absolute;
+    width: calc(100vw - 40px);
+    border-radius: 10px;
+    bottom: 10px;
+    margin-left: 10px;
+    background-color: rgb(24, 24, 24);
+    padding: 10px;
+}
+
+app-home h1 {
+    text-align: center;
+    font-size: xxx-large;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+nav ul {
+    display:block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+nav li:hover {
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home {
+    height: 100px;
+    width: calc(100vw - 20px);
+    background-color: rgb(24, 24, 24);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    padding-top: 25px;
+}

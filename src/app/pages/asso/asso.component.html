@@ -1,22 +1,13 @@
-<h1>Associations</h1>
-<ul class="ul-content">
-    <li class="li-content nom">La Pau'se</li>
-    <li class="li-content poste">Vice Président</li>
-    <li class="li-content asso-desc">Association de repas de CyTech</li>
-    <li class="li-content date">09/2021 - 05/2023</li>
-    <li class="li-content asso-location">Pau (64)</li>
-</ul>
-<ul class="ul-content">
-    <li class="li-content nom">Globus</li>
-    <li class="li-content poste">Co-Président</li>
-    <li class="li-content asso-desc">Association Erasmus de l'université de Reykjavik</li>
-    <li class="li-content date">01/2022 - 05/2022</li>
-    <li class="li-content asso-location">Reykjavik, Islande</li>
-</ul>
-<ul class="ul-content">
-    <li class="li-content nom">Paupyrus</li>
-    <li class="li-content poste">Président</li>
-    <li class="li-content asso-desc">Liste pour le Bureau des étudiants </li>
-    <li class="li-content date">10/2020 - 03/2021</li>
-    <li class="li-content asso-location">Pau (64)</li>
-</ul>
+<main>
+    <h1>Associations</h1>
+
+    <ul class="ul-content" *ngFor="let a of listAssos">
+        <li class="li-content nom">{{a.name}}</li>
+        <li class="li-content poste">{{a.role}}</li>
+        <li class="li-content date">{{a.date}}</li>
+    </ul>
+</main>
+
+<div class="home" routerLink="/">
+    <h1>Accueil</h1>
+</div>
