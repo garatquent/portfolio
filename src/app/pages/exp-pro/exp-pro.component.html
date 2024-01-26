@@ -2,13 +2,14 @@
     <h1>Expériences Professionnelles</h1>
 
     <!-- <i class="fa fa-play"></i> -->
-    
-    <ul class="ul-content" *ngFor="let x of listXp">
-        <li class="li-content type">{{x.type}}</li>
-        <li class="li-content title">{{x.title}}</li>
-        <li class="li-content date">{{x.date}}</li>
-        <li class="li-content company">{{x.company}}</li>
-    </ul>
+    <table>
+        <tr *ngFor="let x of listXp">
+            <td class="type">{{x.type}}</td>
+            <td class="title">{{x.title}}</td>
+            <td class="date">{{x.date}}</td>
+            <td class="company">{{x.company}}</td>
+        </tr>
+    </table>
 </main>
 
 <div class="home" routerLink="/">

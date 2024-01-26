@@ -1,11 +1,14 @@
 <main>
     <h1>Associations</h1>
 
-    <ul class="ul-content" *ngFor="let a of listAssos">
-        <li class="li-content nom">{{a.name}}</li>
-        <li class="li-content poste">{{a.role}}</li>
-        <li class="li-content date">{{a.date}}</li>
-    </ul>
+    <table>
+        <tr *ngFor="let a of listAssos">
+            <td><i class="fa fa-play"></i></td>
+            <td class="nom">{{a.name}}</td>
+            <td class="poste">{{a.role}}</td>
+            <td class="date">{{a.date}}</td>
+        </tr>
+    </table>
 </main>
 
 <div class="home" routerLink="/">
