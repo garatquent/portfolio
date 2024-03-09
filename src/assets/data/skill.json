@@ -1,35 +1,32 @@
 {
-    "skill" : [
-        {
-            "name": "Procédural",
-            "value" : ["C/C++", "Java"]
-        },
-        {
-            "name": "Web Front-end",
-            "value" : ["HTML/CSS", "Javascript", "Angular", "Vue.js"]
-        },
-        {
-            "name": "Web Back-end",
-            "value" : ["PHP", "Node JS", "JEE, Spring"]
-        },
-        {
-            "name": "Base de données",
-            "value" : ["MySQL", "MongoDB"]
-        },
-        {
-            "name": "Infrastructure as code",
-            "value" : ["Terraform"]
-        },
-        {
-            "name": "Méthodologie",
-            "value" : ["SCRUM", "TDD", "Git", "CI/CD"]
-        },
-        {
-            "name": "Cloud Provider",
-            "value" : ["AWS", "GCP"]
-        }
-
-    ],
+    "skill" : [{
+        "name": "Procédural",
+        "value" : ["C/C++", "Java"]
+    },
+    {
+        "name": "Web Front-end",
+        "value" : ["HTML/CSS", "Javascript", "Angular", "Vue.js"]
+    },
+    {
+        "name": "Web Back-end",
+        "value" : ["PHP", "Node JS", "JEE, Spring"]
+    },
+    {
+        "name": "Base de données",
+        "value" : ["MySQL", "MongoDB"]
+    },
+    {
+        "name": "Infrastructure as code",
+        "value" : ["Terraform"]
+    },
+    {
+        "name": "Méthodologie",
+        "value" : ["SCRUM", "TDD", "Git", "CI/CD"]
+    },
+    {
+        "name": "Cloud Provider",
+        "value" : ["AWS", "GCP"]
+    }],
     "language" : [{
         "name":"Français",
         "level": "Natif"

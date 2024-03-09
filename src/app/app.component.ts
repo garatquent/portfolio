@@ -5,7 +5,8 @@ import { AssoComponent } from './pages/asso/asso.component';
 import { BioComponent } from './pages/bio/bio.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule, NgComponentOutlet } from '@angular/common';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import '@angular/animations';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,7 @@ import { CommonModule, NgComponentOutlet } from '@angular/common';
     CommonModule
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 
 export class AppComponent {

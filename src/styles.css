@@ -153,6 +153,7 @@ nav li:hover {
     text-align: center;
     width: 80%;
     margin: auto;
+    font-size: larger;
 }
 
 #coord {
@@ -170,5 +171,15 @@ nav li:hover {
 #coord i {
     width: 30px;
     text-align: center;
+}
+
+.skill_group {
+    margin-top: 20px;
+}
+
+.skills_item {
+    display: flex;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
 }
 

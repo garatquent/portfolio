@@ -1,9 +1,6 @@
 {
-    "bio" : "Etudiant en 3ème année d'école d'ingénieur, je me suis spécialisé dans le Cloud Computing. Ingénieux, fiable et créatif, j'aimerais pouvoir apprendre de nouvelles compétences, et mettre en pratique celles que j'ai déjà acquises.",
-    "coords" : {
-        "phone" : "06 31 78 82 72",
-        "mail" : "quentin.garat@gmail.com",
-        "location" : "64, PAU",
-        "mobility" : "Permis B et voiture"
-    }
+    "phone" : "06 31 78 82 72",
+    "mail" : "quentin.garat@gmail.com",
+    "location" : "64, PAU",
+    "mobility" : "Permis B et voiture"
 }

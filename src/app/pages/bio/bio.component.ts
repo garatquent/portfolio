@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { Bio, Coords } from '../../models/bio';
+import { Coords } from '../../models/bio';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -12,7 +12,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrl: './bio.component.css'
 })
 export class BioComponent {
-  bio: string = "";
   coords: Coords | undefined
   url: string = 'assets/data/infos.json';
 
@@ -20,10 +19,7 @@ export class BioComponent {
 
   ngOnInit() {
     this.http.get(this.url).subscribe(res => {
-      var result = <Bio>res
-
-      this.bio = result.bio
-      this.coords = result.coords
+      this.coords = <Coords>res
     })
   }
 

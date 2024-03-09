@@ -1,5 +1,8 @@
 {
   "projects": {
+    "portfolio": "portfolio-qg",
     "default": "portfolio-qg"
-  }
+  },
+  "targets": {},
+  "etags": {}
 }
