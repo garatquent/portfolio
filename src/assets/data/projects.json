@@ -1,0 +1,23 @@
+[
+    {
+        "name":"IA Knightthrough",
+        "team": "Individuel",
+        "language": "Java",
+        "desc":"Création d'une intelligence artificielle pour le jeu Knightthrough (variante échec) utilisant minimax",
+        "date":"2022"
+    },
+    {
+        "name":"Black Jack",
+        "team": "Individuel",
+        "language": "C",
+        "desc":"Création d'un Black Jack sur le terminal",
+        "date":"2020"
+    },
+    {
+        "name":"Site de rencontre",
+        "team": "Equipe de 5",
+        "language": "Web (HTML CSS JS)",
+        "desc":"Création d'une application de rencontre",
+        "date":"2019"
+    }
+]

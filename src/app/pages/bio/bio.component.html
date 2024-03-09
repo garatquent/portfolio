@@ -1,20 +1,17 @@
 <main>
+
     <h1>Informations personnelles</h1>
 
     <div id="bio" class="bg-primary">
-        <p>
-            Etudiant en 3ème année d'école d'ingénieur, je
-    me suis spécialisé dans le Cloud Computing.
-    Ingénieux, fiable et créatif, j'aimerais pouvoir
-    apprendre de nouvelles compétences, et mettre
-    en pratique celles que j'ai déjà acquises.
-        </p>
-    </div> 
+        <p>{{bio}}</p>
+    </div>
     
     <div id="coord">
-        <li>Phone</li>
-        <li>Mail</li>
-        <li></li>
+        
+        <li id="phone"><i class="fa fa-phone"></i>  {{coords?.phone}}</li>
+        <li id="mail"><i class="fa fa-envelope"></i>  {{coords?.mail}}</li>
+        <li id="mobility"><i class="fa fa-map-marker"></i>  {{coords?.location}}</li>
+        <li id="car"><i class="fa fa-car"></i>  {{coords?.mobility}}</li>
     </div>
 </main>
 

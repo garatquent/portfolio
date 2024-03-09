@@ -1,5 +1,22 @@
 <main>
-    <h1>Loisirs et distinctions</h1>
+    <h1>Distinctions</h1>
+
+    <!-- <i class="fa fa-play"></i> -->
+    <table>
+        <tr *ngFor="let x of distincts">
+            <td class="dinstinct">{{x.name}}</td>
+            <td class="date">{{x.date}}</td>
+        </tr>
+    </table>
+
+    <h1>Loisirs</h1>
+
+    <!-- <i class="fa fa-play"></i> -->
+    <table>
+        <tr *ngFor="let x of hobbies">
+            <td class="dinstinct">{{x}}</td>
+        </tr>
+    </table>
 </main>
 
 <div class="home" routerLink="/">

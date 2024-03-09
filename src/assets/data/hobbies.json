@@ -1,0 +1,11 @@
+{
+    "hobbies" : ["Nature","Origami", "Ecriture", "Musique", "Ski"],
+    "distincts" : [{
+        "name":"Formation de médiateur scolaire",
+        "date": "2016"
+    },
+    {
+        "name":"Délégué de classe",
+        "date":"2017 -> 2024"
+    }]
+}

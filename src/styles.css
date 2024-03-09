@@ -122,9 +122,9 @@ nav h1 {
 }
 
 nav ul {
-    display:block;
     list-style-type: none;
     padding: 10px;
+    border-radius: 10px;
 }
 
 nav li {
@@ -134,7 +134,6 @@ nav li {
 
 nav li:hover {
     background-color: rgb(46, 46, 46);
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -149,3 +148,27 @@ nav li:hover {
     text-align: center;
     padding-top: 25px;
 }
+
+#bio {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+#coord {
+    padding-top: 40px;
+    width: fit-content;
+    margin: auto;   
+    list-style-type: none
+}
+
+#coord > li {
+    width: fit-content;
+    margin-top: 20px;
+}
+
+#coord i {
+    width: 30px;
+    text-align: center;
+}
+
