@@ -1,22 +1,25 @@
 [
     {
+        "id"   : 0,
         "name" : "La Pau'se",
         "role" : "Vice Président",
-        "desc" : "Association de repas de CyTech",
+        "desc" : "Association de repas de l'école d'ingénieur CyTech. Cette expérience m'a permis de diriger des équipes afin de réaliser des évènements pour l'école. Prise de responsabilité, management et mise en place de partenariats",
         "date" : "09/2021 - 05/2023",
         "location" : "Pau (64)"
     },
     {
+        "id"   : 1,
         "name" : "Globus",
         "role" : "Co-Président",
-        "desc" : "Association Erasmus de l'université de Reykjavik",
+        "desc" : "Association Erasmus de l'université de Reykjavik. Cette expérience m'a permis de mettre en place des évènements intégrer des étudiants à une nouvelle culture. Travail d'équipe avec des étudiants internationaux, échange culturel",
         "date" : "01/2022 - 05/2022",
         "location" : "Reyjavik, Islande"
     },
     {
+        "id"   : 2,
         "name" : "Paupyrus",
         "role" : "Président",
-        "desc" : "Liste pour le Bureau des étudiants",
+        "desc" : "Liste pour le Bureau des étudiants de l'école CyTech. Grande esponsabilité, gestion d'une équipe et d'un budget. Collecte de fonds et partenariats",
         "date" : "10/2020 - 03/2021",
         "location" : "Pau (64)"
     }

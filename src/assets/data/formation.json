@@ -1,23 +1,27 @@
 [
     {
+        "id":0,
         "structure":"CyTech Pau",
         "desc":"Cycle ingénieur - Spécialité Informatique - Ingénieurie du Cloud Computing",
         "date":"2020 - 2024",
         "location":"Pau (64)"
     },
     {
+        "id":1,
         "structure":"Reykjavik University",
         "desc":"Study semester abroad",
         "date":"12/2021 - 05/2022",
         "location":"Reykjavik, Iceland"
     },
     {
+        "id":2,
         "structure":"CyTech Pau",
         "desc":"Cycle pré-ingénieur Maths, Informatique, Physique",
         "date":"2018 - 2020",
         "location":"Pau (64)"
     },
     {
+        "id":3,
         "structure":"Lycée Barral",
         "desc":"Bac S - Sciences de l'ingénieur, Mention Bien",
         "date":"2015 - 2018",

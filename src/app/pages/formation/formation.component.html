@@ -2,8 +2,7 @@
     <h1>Formation</h1>
 
     <table>
-        <tr *ngFor="let f of listFormation">
-            <td class="play-btn"><i class="fa fa-play"></i></td>
+        <tr *ngFor="let f of listFormation" routerLink="/formation/{{f.id}}">
             <td class="type">{{f.structure}}</td>
             <td class="date">{{f.date}}</td>
             <td class="location">{{f.location}}</td>

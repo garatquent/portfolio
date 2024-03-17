@@ -1,5 +1,6 @@
 [
     {
+        "id":0,
         "type":"Alternance",
         "title":"Ingénieur Data Cloud AWS",
         "desc":"Construction de la data plateforme avec les services AWS",
@@ -8,6 +9,7 @@
         "location":"Bordes (64)"
     },
     {
+        "id":1,
         "type":"Stage",
         "title":"Ingénieur Data Cloud AWS",
         "desc":"Programmation d'une application utilisant les services AWS pour présenter le Cloud Hybride",
@@ -16,6 +18,7 @@
         "location":"Bordes (64)"
     },
     {
+        "id":2,
         "type":"Stage",
         "title":"Developpement",
         "desc":"Programmation d'une application d'EdTech",
@@ -24,6 +27,7 @@
         "location":"Pau (64)"
     },
     {
+        "id":3,
         "type":"Stage",
         "title":"Maintenance",
         "desc":"Maintenance et réparation de matériel informatique pour des entreprises",
@@ -32,6 +36,7 @@
         "location":"Castres (81)"
     },
     {
+        "id":4,
         "type":"Stage",
         "title":"Matériaux composites",
         "desc":"Réalisation de maquettes digitales et moulages",
@@ -40,6 +45,7 @@
         "location":"Bayonne (64)"
     },
     {
+        "id":5,
         "type":"CDD",
         "title":"Agent Mixte",
         "desc":"Accueil des clients, vente confiserie, stocks, etc.",
@@ -48,6 +54,7 @@
         "location":"Pau (64)"
     },
     {
+        "id":6,
         "type":"CDD",
         "title":"Intérim",
         "desc":"Serveur buvette",
@@ -56,6 +63,7 @@
         "location":"Pau (64)"
     },
     {
+        "id":7,
         "type":"CDD",
         "title":"Intérim",
         "desc":"Manutention",
@@ -64,6 +72,7 @@
         "location":"La Ville-Dieu-du-Temple (82)"
     },
     {
+        "id":8,
         "type":"CDD",
         "title":"Intérim",
         "desc":"Usine textile",
@@ -72,6 +81,7 @@
         "location":"Montauban (82)"
     },
     {
+        "id":9,
         "type":"Stage",
         "title":"Animation d'activité",
         "desc":"Intervention dans des écoles, réalisation d'ateliers",

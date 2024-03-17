@@ -1,7 +1,6 @@
 <main>
     <h1>Compétences</h1>
 
-    <!-- <i class="fa fa-play"></i> -->
     <table class="skill_group" *ngFor="let x of skill">
         <b>{{x.name}}</b>
 
@@ -14,9 +13,8 @@
 
     <h1>Langues</h1>
 
-    <!-- <i class="fa fa-play"></i> -->
     <table>
-        <tr *ngFor="let x of language">
+        <tr *ngFor="let x of language" class="hobbies">
             <td class="name">{{x.name}}</td>
             <td class="level">{{x.level}}</td>
         </tr>

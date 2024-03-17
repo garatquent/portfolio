@@ -2,8 +2,7 @@
     <h1>Associations</h1>
 
     <table>
-        <tr *ngFor="let a of listAssos">
-            <td class="play-btn"><i class="fa fa-play"></i></td>
+        <tr *ngFor="let a of listAssos" routerLink="/asso/{{a.id}}">
             <td class="nom">{{a.name}}</td>
             <td class="poste">{{a.role}}</td>
             <td class="date">{{a.date}}</td>

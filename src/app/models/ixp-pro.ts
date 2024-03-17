@@ -1,4 +1,5 @@
 export interface IXpPro {
+    id: number,
     type:string,
     title:string,
     desc:string,

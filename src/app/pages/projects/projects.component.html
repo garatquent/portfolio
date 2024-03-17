@@ -1,5 +1,14 @@
 <main>
     <h1>Projets</h1>
+
+    <table>
+        <tr *ngFor="let f of listProjects" routerLink="/projects/{{f.id}}">
+            <td class="name">{{f.name}}</td>
+            <td class="team">{{f.team}}</td>
+            <td class="language">{{f.language}}</td>
+        </tr>
+    </table>
+
 </main>
 
 <div class="home" routerLink="/">
