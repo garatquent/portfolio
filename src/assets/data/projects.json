@@ -19,7 +19,7 @@
         "id":2,
         "name":"Site de rencontre",
         "team": "Equipe de 5",
-        "language": "Web (HTML CSS JS)",
+        "language": "Web",
         "desc":"Création d'une application de rencontre",
         "date":"2019"
     }
