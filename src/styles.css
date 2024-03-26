@@ -20,7 +20,7 @@ main h1 {
 main {
     position: relative;
     width: calc(100% - 40px);
-    height: calc(100svh - 140px);
+    height: calc(100svh - 150px);
     border-radius: 10px;
     margin-top: 10px;
     background-color: rgb(24, 24, 24);
@@ -31,7 +31,7 @@ main {
 }
 
 .main-item {
-    height: calc(100svh - 250px);
+    height: calc(100svh - 270px);
 }
 
 main::-webkit-scrollbar {
@@ -73,7 +73,7 @@ nav{
     background-color: rgb(24, 24, 24);
     padding: 10px;
     margin: auto;
-    margin-top: calc(100svh - 595px);
+    margin-top: calc(100svh - 645px);
 }
 
 app-home > h1 {
@@ -108,7 +108,7 @@ nav li:hover {
 
 .home {
     height: 75px;
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
     background-color: rgb(24, 24, 24);
     padding: 10px;
     margin-top: 10px;
